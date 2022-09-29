@@ -1,4 +1,4 @@
-* Copied from Shreya Vakil udemy course, code along serverless
+Copied from Shreya Vakil udemy course, code along serverless
 
 In order to run the project follow the following steps:
 
