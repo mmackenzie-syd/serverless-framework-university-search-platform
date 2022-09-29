@@ -1,0 +1,54 @@
+service: university-producer # NOTE: update this with your service name. Use a better name like university-project
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+#  role: Enter role-arn here
+
+functions:
+  pushToKinesis:
+    handler: handler.pushToKinesis
+    events:
+      - schedule: rate(10 minutes)
+
+  pushToAlgolia:
+    handler: handler.pushToAlgolia
+    events:
+      - stream:
+          arn: #<Enter stream information here>
+          batchSize: 100
+          startingPosition: LATEST
+          enabled: true
+
+  getMenu:
+    handler: handler.getMenu
+    events:
+      - http:
+          cors: true
+          path: menu
+          method: get
+          private: false
+
+  getUniversity:
+    handler: handler.getUniversity
+    events:
+      - http:
+          path: search/{id}
+          method: get
+          cors: true
+          private: false
+          request:
+            parameters:
+              path:
+                id: false
+
+  searchUniversities:
+    handler: handler.searchUniversities
+    events:
+      - http:
+          path: search
+          method: get
+          cors: true
+          private: false
+
+

@@ -1,0 +1,111 @@
+[
+  {
+    "name": "University of New York",
+    "address": {
+      "line1": "123 Great Road",
+      "line2": "etc",
+      "city": "New York",
+      "state": "New York",
+      "country": "US",
+      "zip": 10001
+    },
+    "courses": [
+      {
+        "name": "Computer Science",
+        "level": "graduate",
+        "minimumGreScore": 150,
+        "tutionRatePerCredit": 1000,
+        "totalNumberOfCredits": 36
+      },
+      {
+        "name": "Electrical Engineering",
+        "level": "graduate",
+        "minimumGreScore": 100,
+        "tutionRatePerCredit": 900,
+        "totalNumberOfCredits": 100
+      },
+      {
+        "name": "Mathematics",
+        "level": "undergraduate",
+        "minimumSatScore": 1400,
+        "tutionRatePerCredit": 900,
+        "totalNumberOfCredits": 100
+      }
+    ]
+  },
+  {
+    "name": "University of Los Angeles",
+    "address": {
+      "line1": "456 Fantastic Road",
+      "line2": "etc",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "US",
+      "zip": 90210
+    },
+    "courses": [
+      {
+        "name": "Computer Science",
+        "level": "graduate",
+        "minimumGreScore": 150,
+        "tutionRatePerCredit": 1000,
+        "totalNumberOfCredits": 36
+      },
+      {
+        "name": "Electrical Engineering",
+        "level": "graduate",
+        "minimumGreScore": 100,
+        "tutionRatePerCredit": 900,
+        "totalNumberOfCredits": 100
+      },
+      {
+        "name": "Chemical Engineering",
+        "level": "graduate",
+        "minimumGmatScore": 150,
+        "tutionRatePerCredit": 1000,
+        "totalNumberOfCredits": 60
+      },
+      {
+        "name": "Law",
+        "level": "undergraduate",
+        "minimumSatScore": 1400,
+        "tutionRatePerCredit": 900,
+        "totalNumberOfCredits": 100
+      }
+    ]
+  },
+  {
+    "name": "University of Dallas",
+    "address": {
+      "line1": "789 Awescome Road",
+      "line2": "etc",
+      "city": "Dallas",
+      "state": "Texas",
+      "country": "US",
+      "zip": 31010
+    },
+    "courses": [
+      {
+        "name": "Computer Science",
+        "level": "graduate",
+        "minimumGreScore": 170,
+        "tutionRatePerCredit": 1000,
+        "totalNumberOfCredits": 36
+      },
+      {
+        "name": "Mechanical Engineering",
+        "level": "graduate",
+        "minimumGmatScore": 150,
+        "tutionRatePerCredit": 1000,
+        "totalNumberOfCredits": 60
+      },
+      {
+        "name": "Journalism",
+        "level": "undergraduate",
+        "minimumSatScore": 1400,
+        "tutionRatePerCredit": 900,
+        "totalNumberOfCredits": 100
+      }
+    ]
+  }
+]
